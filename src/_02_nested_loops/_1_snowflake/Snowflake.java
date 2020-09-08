@@ -34,7 +34,7 @@ Bob.setPenColor(0);
 Bob.move(30);
 			
 			// #8. turn the robot to the right by 60
-			
+	//xxxxxx		
 Bob.turn(60);			
 			// #12. set the pen color to blue for even numbers of i
 if (i % 2 = 1) {
