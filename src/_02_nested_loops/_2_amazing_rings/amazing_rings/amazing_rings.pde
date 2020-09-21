@@ -18,7 +18,7 @@ if (mousePressed) {
 }
 x = x + speed ;
 x2 = x2 -speed ;
-if ( x == 3 || x2 == 3 ) {
+if ( x < 3 || x2 < 3 ) {
 speed = -speed ;
   
 }
