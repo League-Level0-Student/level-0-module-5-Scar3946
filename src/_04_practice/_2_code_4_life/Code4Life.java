@@ -14,19 +14,31 @@ public class Code4Life {
 	 * If you are not sure, ask your teacher 
 	 * *****************/
 	static boolean canPlaySounds = true;
+	public static void main(String[] args) {
+		
 	
 	
 	// 1. Ask the user how many hours they spent coding this week.
-
-	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
+String hours =JOptionPane.showInputDialog("how many hours did you spend coding this weak?");
+int coding = Integer.parseInt(hours);
+// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
-
+if (coding <= 2) {
+	JOptionPane.showMessageDialog(null,"stop watching you tube and write code instead");
+}
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
-
+if (coding >= 3) {
+	JOptionPane.showMessageDialog(null, "you are a code ninja");
+}
 	// 4. If it is more than 5, call the playBatmanTheme  method, then 
-	//    call the displayBatman method.
-
+	//  call the displayBatman method.
+if (coding >= 5) {
+playBatmanTheme();
+displayBatman();
+}
+	
+}
 
 
 	

@@ -32,7 +32,17 @@ System.out.println(printrandom);
 
 JOptionPane.showMessageDialog(null, " the difference is " + (randomnumber-printrandom) );
 	
-	
+String city = JOptionPane.showInputDialog("what city do you live in?");
+if(city =="san diego") {
+JOptionPane.showMessageDialog(null, " you live in america's finest city");
+}
+else {
+	JOptionPane.showMessageDialog(null, " move to san diego");
+}
+int cars = 2 ;
+JOptionPane.showMessageDialog(null, " we have 8 wheels");
+JOptionPane.showInputDialog("what is the name of your school?");
+JOptionPane.showMessageDialog(null, "you have a fantastic school");
 }
 
 
